@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.logo img {
+  width: 200px;
+  height: 30px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #888;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover,
+.menu a:focus {
+  color: black;
+}
+
+.right-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-btn {
+  background: black;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #007bff;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart img {
+  width: 50px;
+  height: 50px;
+}
+
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #ff0055;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 200px;
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.tagline {
+  color: #888;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.text-content h1 {
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.text-content h1 span {
+  font-weight: 900;
+  display: block;
+  margin-top: 10px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #000000;
+}
+
+.btn-secondary {
+  background: white;
+  border: 2px solid black;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.watch-img img {
+  width: 590px;
+  height: auto;
+}
+
